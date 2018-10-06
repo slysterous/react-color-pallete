@@ -1,11 +1,11 @@
 {
     "name": "react-color-pallete",
-    "version": "0.0.0-semantically-released",
+    "version": "1.0.0",
     "description": "Module for color manipulation and global storage for react and react-native.",
     "main": "src/index.js",
     "scripts": {
         "commit": "git-cz",
-        "test": "mocha src/index.test.js",
+        "test": "mocha src/index.test.js -w",
         "test:single": "mocha src/index.test.js",
         "semantic-release": "semantic-release pre && npm publish && semantic-release post"
     },
@@ -17,9 +17,6 @@
         }
     ],
     "licence": "MIT",
-    "dependencies": {
-        "npm": "6.4.1"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/slysterous/react-color-pallete.git"
