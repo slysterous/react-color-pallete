@@ -1,40 +1,40 @@
 {
-    "name": "react-color-pallete",
-    "version": "1.0.1",
-    "description": "Module for color manipulation and global storage for react and react-native.",
-    "main": "src/index.js",
-    "scripts": {
-        "commit": "git-cz",
-        "test": "mocha src/index.test.js -w",
-        "test:single": "mocha src/index.test.js",
-        "semantic-release": "semantic-release pre && npm publish && semantic-release post"
-    },
-    "author": "Christos Petropoulos <chrispetropoulos91@gmail.com",
-    "contributors": [
-        {
-            "name": "Theodore Sevvos",
-            "email": "theodoresevvos@gmail.com"
-        }
-    ],
-    "licence": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/slysterous/react-color-pallete.git"
-    },
-    "bugs": {
-        "url": "https://github.com/slysterous/react-color-pallete/issues"
-    },
-    "homepage": "https://github.com/slysterous/react-color-pallete#readme",
-    "devDependencies": {
-        "chai": "4.2.0",
-        "commitizen": "3.0.2",
-        "cz-conventional-changelog": "2.1.0",
-        "mocha": "5.2.0",
-        "semantic-release": "15.9.17"
-    },
-    "config": {
-        "commitizen": {
-            "path": "node_modules/cz-conventional-changelog"
-        }
+  "name": "react-color-pallete",
+  "version": "0.0.0-semantically-released",
+  "description": "Module for color manipulation and global storage for react and react-native.",
+  "main": "src/index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "author": "Christos Petropoulos <chrispetropoulos91@gmail.com",
+  "contributors": [
+    {
+      "name": "Theodore Sevvos",
+      "email": "theodoresevvos@gmail.com"
     }
+  ],
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slysterous/react-color-pallete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slysterous/react-color-pallete/issues"
+  },
+  "homepage": "https://github.com/slysterous/react-color-pallete#readme",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "commitizen": "3.0.2",
+    "cz-conventional-changelog": "2.1.0",
+    "mocha": "5.2.0",
+    "semantic-release": "^15.9.17"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
 }
