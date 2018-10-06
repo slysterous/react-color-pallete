@@ -1,6 +1,6 @@
 {
     "name": "react-color-pallete",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Module for color manipulation and global storage for react and react-native.",
     "main": "src/index.js",
     "scripts": {
