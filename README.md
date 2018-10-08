@@ -7,7 +7,7 @@ Module Description
 ## Installation
 
 ```bashp
-npm install react-color-pallete
+npm install react-color-pallette
 ```
 ## Usage
 
